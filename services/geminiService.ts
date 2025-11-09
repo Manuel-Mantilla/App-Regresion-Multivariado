@@ -8,7 +8,7 @@ if (!API_KEY) {
     throw new Error("API_KEY environment variable not set");
 }
 
-const ai = new GoogleGenAI({ apiKey: API_KEY });
+const ai = new GoogleGenAI({ apiKey: import.meta.env.VITE_API_KEY });
 
 const cleanJsonString = (str: string): string => {
     // Remove markdown code block fences and trim whitespace
