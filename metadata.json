@@ -1,0 +1,5 @@
+{
+  "name": "Data Analysis & Regression Tool",
+  "description": "An interactive web application that allows users to upload datasets (CSV, XLSX, TXT), perform descriptive analysis, generate multivariate regression models, and make predictions using a simple forecasting tool. It leverages AI to provide statistical insights and model details.",
+  "requestFramePermissions": []
+}
